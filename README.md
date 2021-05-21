@@ -1,14 +1,14 @@
-# UserMan3 using Bootstrap and MyBatis (UserMan3c) 
+# Untact Pharmacy using Bootstrap and MyBatis (UserMan3c example) 
 a branch from UserMan2 master 
 - adding community functionalities  
 - using Bootstrap
 - implementing Community DAO using MyBatis data mapper 
  
-### userman3b·ÎºÎÅÍ º¯°æ/Ãß°¡µÈ ÆÄÀÏµé
+### userman3bë¡œë¶€í„° ë³€ê²½/ì¶”ê°€ëœ íŒŒì¼ë“¤
 
 - model.{Community, User}: implements Serializable interface
 - model.dao.CommunityDAO
 - model.dao.{CommunityMapper.java, CommunityMapper.xml}: Mapper interface, Mapper XML
 - model.service.UserManager#findCommunity()
-- resources/mybatis-config.xml (MyBatis ¼³Á¤ ÆÄÀÏ)
-- pom.xml: MyBatis dependency ¼³Á¤ Ãß°¡
+- resources/mybatis-config.xml (MyBatis ì„¤ì • íŒŒì¼)
+- pom.xml: MyBatis dependency ì„¤ì • ì¶”ê°€
